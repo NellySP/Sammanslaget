@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/3oEjHQTIhioOYUpzMs/giphy-downsized-large.gif">
+<img src="https://media.giphy.com/media/FoQMlUR49RFyHBKYlH/giphy.gif">
 
 # Sammanslaget 2022
 
