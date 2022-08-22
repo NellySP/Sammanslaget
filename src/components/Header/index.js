@@ -5,13 +5,9 @@ const StyledHeader = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background-color: #ede7d9;
+  background-color: #ffe135;
   align-items: center;
-
-  img {
-    width: 10%;
-    margin: 1%;
-  }
+  margin-bottom: 10vh;
 `;
 
 const Header = () => {
