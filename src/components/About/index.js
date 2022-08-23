@@ -7,6 +7,7 @@ const StyledAbout = styled.div`
 
   img {
     width: 60%;
+    border: 10px solid #f5c71a;
   }
 
   p {
@@ -27,15 +28,6 @@ const StyledAbout = styled.div`
     background-color: #ffe135;
   }
 
-  a {
-    color: black;
-    text-decoration: underline;
-  }
-
-  a:hover {
-    text-decoration: underline black;
-  }
-
   @media screen and (max-width: 600px) {
     .parent {
       display: flex;
@@ -52,63 +44,46 @@ const AboutPage = () => {
   return (
     <StyledAbout>
       <div>
-        <h2>About page</h2>
+        <h2>Gruppnamn?</h2>
         <p>This space is all about the amazing us</p>
+        <p>ca 600 tecken om vad vi gjort i projektet</p>
       </div>
       <div className="parent">
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
-          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant! Om person. oj så intressant!</p>
         </div>
       </div>
     </StyledAbout>

@@ -20,8 +20,8 @@ const StyledNavigation = styled.div`
 const Navigation = () => {
   return (
     <StyledNavigation>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
+      <a href="/">Hem</a>
+      <a href="/about">Om oss</a>
     </StyledNavigation>
   );
 };

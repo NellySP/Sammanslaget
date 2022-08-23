@@ -7,7 +7,7 @@ const StyledHeader = styled.div`
   flex-direction: row;
   background-color: #ffe135;
   align-items: center;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
   border: 1px solid black;
 
   h1 {
@@ -18,7 +18,7 @@ const StyledHeader = styled.div`
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Sammanslaget 2022</h1>
+      <h1>Bidragsnamn!</h1>
       <Navigation />
     </StyledHeader>
   );
