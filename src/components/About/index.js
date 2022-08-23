@@ -5,7 +5,10 @@ const StyledAbout = styled.div``;
 const AboutPage = () => {
   return (
     <StyledAbout>
-      <div>Aboutpage</div>
+      <div>
+        <h2>About page</h2>
+        <p>This space is all about the amazing us</p>
+      </div>
     </StyledAbout>
   );
 };

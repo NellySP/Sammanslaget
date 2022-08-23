@@ -5,7 +5,10 @@ const StyledAbout = styled.div``;
 const HomePage = () => {
   return (
     <StyledAbout>
-      <div>Homepage</div>
+      <div>
+        <h2>Home page</h2>
+        <p>This space is reserved for the amazing change inducing project</p>
+      </div>
     </StyledAbout>
   );
 };
