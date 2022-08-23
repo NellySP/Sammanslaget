@@ -1,8 +1,13 @@
-import "./App.css";
+import styled from "styled-components";
 import HomePage from "./components/Home";
 import AboutPage from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/footer";
+
+const StyledIndex = styled.div`
+  text-align: center;
+  max-width: 100%;
+`;
 
 function App() {
   let Component;
@@ -15,11 +20,11 @@ function App() {
       break;
   }
   return (
-    <div className="App">
+    <StyledIndex>
       <Header />
       <Component />
       <Footer />
-    </div>
+    </StyledIndex>
   );
 }
 
