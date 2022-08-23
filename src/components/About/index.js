@@ -23,6 +23,7 @@ const StyledAbout = styled.div`
   .item {
     border: 1px solid black;
     margin: 5%;
+    background-color: #ffe135;
   }
 
   a {
