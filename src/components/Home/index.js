@@ -8,6 +8,7 @@ const StyledAbout = styled.div`
     margin-right: 5%;
     margin-bottom: 5%;
     padding: 3%;
+    background-color: #ffe135;
   }
   img {
     width: 70%;

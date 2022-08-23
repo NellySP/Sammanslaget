@@ -2,6 +2,7 @@ import "./App.css";
 import HomePage from "./components/Home";
 import AboutPage from "./components/About";
 import Header from "./components/Header";
+import Footer from "./components/footer";
 
 function App() {
   let Component;
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Component />
+      <Footer />
     </div>
   );
 }
