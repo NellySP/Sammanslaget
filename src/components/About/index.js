@@ -18,6 +18,7 @@ const StyledAbout = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin: 5%;
   }
 
   .item {
@@ -59,30 +60,54 @@ const AboutPage = () => {
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
           <p>Om person. oj så intressant!</p>
-        </div>
-        <div className="item">
-          <h3>Person</h3>
-          <img alt="This is dog" src={example}></img>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
           <p>Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
           <p>Om person. oj så intressant!</p>
-        </div>
-        <div className="item">
-          <h3>Person</h3>
-          <img alt="This is dog" src={example}></img>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
           <p>Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
           <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
         </div>
         <div className="item">
           <h3>Person</h3>
           <img alt="This is dog" src={example}></img>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+        </div>
+        <div className="item">
+          <h3>Person</h3>
+          <img alt="This is dog" src={example}></img>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+        </div>
+        <div className="item">
+          <h3>Person</h3>
+          <img alt="This is dog" src={example}></img>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
+          <p>Om person. oj så intressant!</p>
           <p>Om person. oj så intressant!</p>
         </div>
       </div>
