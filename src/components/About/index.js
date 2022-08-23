@@ -6,7 +6,7 @@ const StyledAbout = styled.div`
   min-height: 100vh;
 
   img {
-    width: 70%;
+    width: 60%;
   }
 
   p {
@@ -22,7 +22,7 @@ const StyledAbout = styled.div`
 
   .item {
     border: 1px solid black;
-    margin: 3%;
+    margin: 5%;
   }
 
   a {
