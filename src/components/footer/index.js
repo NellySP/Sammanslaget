@@ -9,10 +9,16 @@ const StyledFooter = styled.div`
     font-family: "Roboto";
   }
 
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+  }
   a {
     color: black;
     text-decoration: underline;
     font-family: "Roboto";
+    margin: 1%;
   }
 
   p {
@@ -24,7 +30,10 @@ const Footer = () => {
   return (
     <StyledFooter>
       <h4>Sammanslaget 2022</h4>
-      <a href="https://www.yrgo.se/">Yrgo</a>
+      <div className="link-container">
+        <a href="https://www.yrgo.se/">Yrgo.se</a>
+        <a href="https://bjorkafrihet.se/">björk&frihet</a>
+      </div>
     </StyledFooter>
   );
 };

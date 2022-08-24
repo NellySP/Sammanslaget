@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import example from "../../images/glasses-pug.jpg";
-import dried from "../../images/dried.jpg";
+import lemon from "../../images/single-lemon.jpg";
 
 const StyledAbout = styled.div`
   width: 100vw;
@@ -15,19 +14,17 @@ const StyledAbout = styled.div`
     font-family: "Roboto";
   }
 
-  .img-container {
-    border-radius: 50%;
+  h4 {
+    font-family: "Roboto";
   }
 
   img {
-    width: 60%;
-    border: 20px solid hotpink;
-    border-radius: 25px;
-    /* border-radius: 50%; rund men den blir inte rund */
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 5%;
   }
 
   p {
-    /* font-size: 16px; verkar vara den förinställda standarden */
     margin-right: 5vw;
     margin-left: 5vw;
     font-family: "Roboto";
@@ -40,9 +37,7 @@ const StyledAbout = styled.div`
   }
 
   .item {
-    /* border: 1px solid black; */
     margin: 5%;
-    /* background-color: #ffe135; */
     background-color: pink;
     border-radius: 25px;
   }
@@ -87,12 +82,13 @@ const AboutPage = () => {
   return (
     <StyledAbout>
       <div>
-        <h2>Vi som skapat *bidragsnamn*!</h2>
+        <h2>Vi som skapat GUILTR.I.P!</h2>
       </div>
       <div className="parent">
         <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={dried}></img>
+          <img alt="This is dog" src={lemon}></img>
+          <h3>Philip Sunnerholm</h3>
+          <h4>UX Design</h4>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -104,8 +100,9 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={dried}></img>
+          <img alt="This is dog" src={lemon}></img>
+          <h3>Nelly Svarvare Petrén</h3>
+          <h4>Webbutvecklare</h4>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -117,8 +114,9 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={dried}></img>
+          <img alt="This is dog" src={lemon}></img>
+          <h3>Linda Tilly </h3>
+          <h4>UX Design</h4>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -130,8 +128,9 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={example}></img>
+          <img alt="This is dog" src={lemon}></img>
+          <h3>Niklas Jörgenson</h3>
+          <h4>Game Programmer</h4>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -142,22 +141,11 @@ const AboutPage = () => {
             <a href="https://www.yrgo.se/">Länk till Portfolio</a>
           </div>
         </div>
+
         <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={example}></img>
-          <p>
-            Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
-            under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
-            detalj. For skoj.
-          </p>
-          <div className="link-container">
-            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
-            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
-          </div>
-        </div>
-        <div className="item">
-          <h3>Namn Namn</h3>
-          <img alt="This is dog" src={example}></img>
+          <img alt="This is dog" src={lemon}></img>
+          <h3>Maja Dandebo</h3>
+          <h4>Game Artist</h4>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat

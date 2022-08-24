@@ -20,7 +20,7 @@ const StyledHeader = styled.div`
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Bidragsnamn!</h1>
+      <h1>GUILTR.I.P</h1>
       <Navigation />
     </StyledHeader>
   );
