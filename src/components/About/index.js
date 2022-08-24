@@ -19,7 +19,7 @@ const StyledAbout = styled.div`
   }
 
   img {
-    width: 80%;
+    width: 70%;
     border-radius: 50%;
     margin-top: 5%;
   }
@@ -83,6 +83,7 @@ const AboutPage = () => {
     <StyledAbout>
       <div>
         <h2>Vi som skapat GUILTR.I.P!</h2>
+        <p>Projektet skapades i samarbete mellan Yrgo och Björk&frihet.</p>
       </div>
       <div className="parent">
         <div className="item">
