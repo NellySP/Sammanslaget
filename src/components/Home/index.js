@@ -14,6 +14,10 @@ const StyledHome = styled.div`
   canvas {
     max-width: 100%;
   }
+
+  p {
+    font-family: "Roboto";
+  }
 `;
 
 const HomePage = () => {

@@ -6,13 +6,22 @@ const StyledAbout = styled.div`
   width: 100vw;
   min-height: 100vh;
 
+  h2 {
+    margin-top: 5%;
+    font-family: "Roboto";
+  }
+
+  h3 {
+    font-family: "Roboto";
+  }
+
   .img-container {
     border-radius: 50%;
   }
 
   img {
     width: 60%;
-    border: 20px solid #f5c71a;
+    border: 20px solid hotpink;
     border-radius: 25px;
     /* border-radius: 50%; rund men den blir inte rund */
   }
@@ -21,6 +30,7 @@ const StyledAbout = styled.div`
     /* font-size: 16px; verkar vara den förinställda standarden */
     margin-right: 5vw;
     margin-left: 5vw;
+    font-family: "Roboto";
   }
 
   .parent {
@@ -32,8 +42,22 @@ const StyledAbout = styled.div`
   .item {
     /* border: 1px solid black; */
     margin: 5%;
-    background-color: #ffe135;
+    /* background-color: #ffe135; */
+    background-color: pink;
     border-radius: 25px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+  }
+
+  a {
+    font-family: "Roboto";
+    color: black;
+    text-decoration: underline;
+    margin: 2%;
   }
 
   @media screen and (max-width: 900px) {
@@ -64,7 +88,6 @@ const AboutPage = () => {
     <StyledAbout>
       <div>
         <h2>Vi som skapat *bidragsnamn*!</h2>
-        <p>ca 600 tecken om vad vi gjort i projektet</p>
       </div>
       <div className="parent">
         <div className="item">
@@ -75,6 +98,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
         <div className="item">
           <h3>Namn Namn</h3>
@@ -84,6 +111,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
         <div className="item">
           <h3>Namn Namn</h3>
@@ -93,6 +124,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
         <div className="item">
           <h3>Namn Namn</h3>
@@ -102,6 +137,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
         <div className="item">
           <h3>Namn Namn</h3>
@@ -111,6 +150,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
         <div className="item">
           <h3>Namn Namn</h3>
@@ -120,6 +163,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <div className="link-container">
+            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
+            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+          </div>
         </div>
       </div>
     </StyledAbout>

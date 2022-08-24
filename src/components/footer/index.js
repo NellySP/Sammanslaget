@@ -5,13 +5,18 @@ const StyledFooter = styled.div`
   /* background-color: #ffe135; */
   /* border: 1px solid black; */
 
-  h1 {
-    margin-left: 5%;
+  h4 {
+    font-family: "Roboto";
   }
 
   a {
     color: black;
     text-decoration: underline;
+    font-family: "Roboto";
+  }
+
+  p {
+    font-family: "Roboto";
   }
 `;
 

@@ -7,6 +7,8 @@ const StyledNavigation = styled.div`
   justify-content: space-evenly;
 
   a {
+    font-size: 18px;
+    font-family: "Roboto";
     padding: 1em;
     color: black;
     text-decoration: none;

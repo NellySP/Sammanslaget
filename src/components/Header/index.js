@@ -5,13 +5,15 @@ const StyledHeader = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background-color: #ffe135;
+  /* background-color: #ffe135; */
+  background-color: pink;
   align-items: center;
   /* margin-bottom: 10vh; */
   /* border: 1px solid black; */
 
   h1 {
     margin-left: 5%;
+    font-family: "Montserrat";
   }
 `;
 
