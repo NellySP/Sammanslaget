@@ -51,8 +51,11 @@ const StyledAbout = styled.div`
   a {
     font-family: "Roboto";
     color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
     text-decoration: underline;
-    margin: 2%;
   }
 
   @media screen and (max-width: 900px) {
@@ -83,13 +86,18 @@ const AboutPage = () => {
     <StyledAbout>
       <div>
         <h2>Vi som skapat GUILTR.I.P!</h2>
-        <p>Projektet skapades i samarbete mellan Yrgo och Björk&frihet.</p>
+        <p>
+          Projektet skapades i samarbete mellan{" "}
+          <a href="https://www.yrgo.se/">Yrgo</a> och
+          <a href="https://bjorkafrihet.se/"> Björk & frihet</a>.
+        </p>
       </div>
       <div className="parent">
         <div className="item">
           <img alt="This is dog" src={lemon}></img>
           <h3>Philip Sunnerholm</h3>
           <h4>UX Design</h4>
+          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -104,6 +112,7 @@ const AboutPage = () => {
           <img alt="This is dog" src={lemon}></img>
           <h3>Nelly Svarvare Petrén</h3>
           <h4>Webbutvecklare</h4>
+          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -118,6 +127,7 @@ const AboutPage = () => {
           <img alt="This is dog" src={lemon}></img>
           <h3>Linda Tilly </h3>
           <h4>UX Design</h4>
+          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -132,6 +142,7 @@ const AboutPage = () => {
           <img alt="This is dog" src={lemon}></img>
           <h3>Niklas Jörgenson</h3>
           <h4>Game Programmer</h4>
+          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
@@ -147,6 +158,7 @@ const AboutPage = () => {
           <img alt="This is dog" src={lemon}></img>
           <h3>Maja Dandebo</h3>
           <h4>Game Artist</h4>
+          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat

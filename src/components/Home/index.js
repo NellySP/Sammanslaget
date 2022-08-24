@@ -30,13 +30,7 @@ const HomePage = () => {
 
   return (
     <StyledHome>
-      {/* <div>
-        <h2>Spelets titel/bidragsnamn (igen?)</h2>
-        <p>beskrivande text om spelet?</p>
-      </div> */}
-      {/* <div className="game-container"> */}
       <Unity unityProvider={unityProvider} />
-      {/* </div> */}
     </StyledHome>
   );
 };

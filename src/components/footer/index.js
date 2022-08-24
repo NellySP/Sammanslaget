@@ -1,9 +1,9 @@
 import styled from "styled-components";
+import bjork from "../../images/bjork-logo.png";
+import yrgo from "../../images/yrgo.png";
 
 const StyledFooter = styled.div`
   width: 100vw;
-  /* background-color: #ffe135; */
-  /* border: 1px solid black; */
 
   h4 {
     font-family: "Roboto";
@@ -11,12 +11,13 @@ const StyledFooter = styled.div`
 
   .link-container {
     display: flex;
-    flex-direction: column;
     margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
   }
   a {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: "Roboto";
     margin: 1%;
   }
@@ -24,15 +25,22 @@ const StyledFooter = styled.div`
   p {
     font-family: "Roboto";
   }
+
+  img {
+    width: 100px;
+  }
 `;
 
 const Footer = () => {
   return (
     <StyledFooter>
-      <h4>Sammanslaget 2022</h4>
       <div className="link-container">
-        <a href="https://www.yrgo.se/">Yrgo.se</a>
-        <a href="https://bjorkafrihet.se/">björk&frihet</a>
+        <a href="https://bjorkafrihet.se/">
+          <img alt="This is dog" src={bjork}></img>
+        </a>
+        <a href="https://www.yrgo.se/">
+          <img alt="This is dog" src={yrgo}></img>
+        </a>
       </div>
     </StyledFooter>
   );
