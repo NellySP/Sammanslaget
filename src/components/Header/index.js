@@ -8,7 +8,7 @@ const StyledHeader = styled.div`
   background-color: #ffe135;
   align-items: center;
   /* margin-bottom: 10vh; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   h1 {
     margin-left: 5%;
