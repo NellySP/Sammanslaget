@@ -19,7 +19,7 @@ const MobileHome = () => {
     <StyledMobile>
       <div className="container">
         <h2>Så här kan vi inte ha det!</h2>
-        <p>Använd en laptop för att spela spelet!</p>
+        <p>Besök sidan på en laptop för att ta del av upplevelsen!</p>
       </div>
     </StyledMobile>
   );
