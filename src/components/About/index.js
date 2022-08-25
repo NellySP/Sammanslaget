@@ -187,17 +187,17 @@ const AboutPage = () => {
           <h3>Niklas Jörgenson</h3>
           <h4>Game Programmer</h4>
           <p>
-            Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
-            under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
-            detalj. For skoj.
+            Niklas integrerade de grafiska komponenterna och byggde ett spel
+            runtom dem.
           </p>
           <div className="mail-container">
             <img className="mail-image" alt="mail-icon" src={email}></img>
-            <p>Mejladress?</p>
+            <p>niklas.jorgensen@hotmail.com </p>
           </div>
           <div className="link-container">
-            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
-            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+            <a href="https://www.linkedin.com/in/niklas-j%C3%B6rgensen-87a2b71b2/ ">
+              Linkedin
+            </a>
           </div>
         </div>
 
