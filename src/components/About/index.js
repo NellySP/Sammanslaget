@@ -14,12 +14,10 @@ const StyledAbout = styled.div`
 
   h3 {
     font-family: "Montserrat";
-    /* font-family: "Roboto"; */
   }
 
   h4 {
     font-family: "Montserrat";
-    /* font-family: "Roboto"; */
   }
 
   img {
@@ -62,18 +60,7 @@ const StyledAbout = styled.div`
     text-decoration: underline;
   }
 
-  /* @media screen and (max-width: 900px) {
-    .parent {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .item {
-      margin: 5%;
-    }
-  } */
-
-  @media screen and (max-width: 800px) {
+  @media only screen and (max-width: 700px) {
     .parent {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -81,6 +68,7 @@ const StyledAbout = styled.div`
 
     .item {
       margin: 5%;
+      background-color: aliceblue;
     }
   }
 `;

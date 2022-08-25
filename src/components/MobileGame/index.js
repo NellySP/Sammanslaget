@@ -4,9 +4,10 @@ const StyledMobile = styled.div`
   .container {
     display: flex;
     flex-direction: column;
-    margin: 2%;
+    margin: 5%;
     background-color: pink;
-    /* border-radius: 25px; */
+    height: 50vh;
+    border-radius: 1%;
   }
   p {
     font-family: "roboto";
