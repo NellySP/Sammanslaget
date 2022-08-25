@@ -62,13 +62,14 @@ const StyledAbout = styled.div`
 
   @media only screen and (max-width: 700px) {
     .parent {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      /* display: grid;
+      grid-template-columns: repeat(1, 1fr); */
+      display: flex;
+      flex-direction: column;
     }
 
     .item {
       margin: 5%;
-      background-color: aliceblue;
     }
   }
 `;
