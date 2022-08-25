@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 const StyledMobile = styled.div`
   .container {
-    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
     background-color: pink;
-    border-radius: 25px;
+    /* border-radius: 25px; */
   }
   p {
     font-family: "roboto";
