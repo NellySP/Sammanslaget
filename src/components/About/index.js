@@ -2,6 +2,8 @@ import styled from "styled-components";
 import lemon from "../../images/single-lemon.jpg";
 import ux from "../../images/Tilly&Philip.png";
 import webb from "../../images/Nellyy.png";
+import ga from "../../images/Maja.png";
+import email from "../../images/email.svg";
 
 const StyledAbout = styled.div`
   width: 100vw;
@@ -27,8 +29,8 @@ const StyledAbout = styled.div`
   }
 
   p {
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-right: 10%;
+    margin-left: 10%;
     font-family: "Roboto";
   }
 
@@ -42,7 +44,6 @@ const StyledAbout = styled.div`
   .item {
     margin: 5%;
     background-color: #ebccca;
-    /* background-color: #fae8e0; */
     border-radius: 25px;
   }
 
@@ -72,11 +73,25 @@ const StyledAbout = styled.div`
   a {
     font-family: "Roboto";
     color: black;
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-decoration: underline;
   }
 
   a:hover {
     text-decoration: underline;
+  }
+
+  .mail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mail-image {
+    width: 2vw;
+    margin: 0%;
+    border-radius: 0%;
   }
 
   @media only screen and (max-width: 700px) {
@@ -118,9 +133,8 @@ const AboutPage = () => {
       </div>
       <div className="parent">
         <div className="item">
-          <img alt="This is dog" src={ux}></img>
+          <img alt="Picture of a human!" src={ux}></img>
           <h3>Linda Tilly & Philip Sunnerholm</h3>
-          {/* <h3>Philip Sunnerholm</h3> */}
           <h4>UX Design</h4>
           <p>
             Tilly & Philip ansvarade för projektledning, konceptutveckling och
@@ -130,8 +144,14 @@ const AboutPage = () => {
             samt hade uppsikt över användarvänligheten under alla steg i
             processen.
           </p>
-          <p>lintilly@hotmail.com</p>
-          <p>philip.sunnerholm@gmail.com</p>
+          <div className="mail-container">
+            <img className="mail-image" alt="mail icon" src={email}></img>
+            <p>lintilly@hotmail.com</p>
+          </div>
+          <div className="mail-container">
+            <img className="mail-image" alt="mail icon" src={email}></img>
+            <p>philip.sunnerholm@gmail.com</p>
+          </div>
           <div className="div-container">
             <div className="link-container">
               <a href="https://www.linkedin.com/in/ltilly">Tillys Linkedin</a>
@@ -144,14 +164,17 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="item">
-          <img alt="This is dog" src={webb}></img>
+          <img alt="Picture of a human!" src={webb}></img>
           <h3>Nelly Svarvare Petrén</h3>
           <h4>Webbutvecklare</h4>
           <p>
             Nelly har kodat och deployat hemsidan, varit delaktig i webbdesignen
             och ansvarat för att upplevelsen kan integreras och köras online.
           </p>
-          <p>nelly.petren@gmail.com</p>
+          <div className="mail-container">
+            <img className="mail-image" alt="mail icon" src={email}></img>
+            <p>nelly.petren@gmail.com</p>
+          </div>
           <div className="link-container">
             <a href="https://www.linkedin.com/in/nelly-petr%C3%A9n-289957180/">
               Linkedin
@@ -160,7 +183,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="item">
-          <img alt="This is dog" src={lemon}></img>
+          <img alt="Picture of a human!" src={lemon}></img>
           <h3>Niklas Jörgenson</h3>
           <h4>Game Programmer</h4>
           <p>
@@ -168,7 +191,10 @@ const AboutPage = () => {
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
-          <p>Mejladress?</p>
+          <div className="mail-container">
+            <img className="mail-image" alt="mail-icon" src={email}></img>
+            <p>Mejladress?</p>
+          </div>
           <div className="link-container">
             <a href="https://www.yrgo.se/">Länk till Linkedin</a>
             <a href="https://www.yrgo.se/">Länk till Portfolio</a>
@@ -176,18 +202,20 @@ const AboutPage = () => {
         </div>
 
         <div className="item">
-          <img alt="This is dog" src={lemon}></img>
+          <img alt="Picture of a human!" src={ga}></img>
           <h3>Maja Dandebo</h3>
           <h4>Game Artist</h4>
           <p>
-            Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
-            under projektet. ca 100 tecken. Kanske en Namn Namnlig/privat
-            detalj. For skoj.
+            Maja arbetade med projektets visuella komponenter, såsom
+            illustrationer och grafik anpassade för en interaktiv digital
+            upplevelse.
           </p>
-          <p>Mejladress?</p>
+          <div className="mail-container">
+            <img className="mail-image" alt="mail-icon" src={email}></img>
+            <p>majadandebo@gmail.com</p>
+          </div>
           <div className="link-container">
-            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
-            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
+            <a href="https://www.artstation.com/majadandebo">Portfolio</a>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/footer";
 
 const StyledIndex = styled.div`
+  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0%;
   text-align: center;

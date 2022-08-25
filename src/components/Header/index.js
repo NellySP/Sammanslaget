@@ -7,17 +7,25 @@ const StyledHeader = styled.div`
   flex-direction: row;
   background-color: #ebccca;
   align-items: center;
+  padding-bottom: 5%;
 
   h1 {
     margin-left: 5%;
     font-family: "Montserrat";
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 `;
 
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>GUILTR.I.P </h1>
+      <h1>
+        <a href="/">GUILTR.I.P </a>
+      </h1>
       <Navigation />
     </StyledHeader>
   );
