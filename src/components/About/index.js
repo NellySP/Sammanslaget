@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import lemon from "../../images/single-lemon.jpg";
+import ux from "../../images/Tilly&Philip.png";
+import webb from "../../images/Nellyy.png";
 
 const StyledAbout = styled.div`
   width: 100vw;
@@ -7,15 +9,17 @@ const StyledAbout = styled.div`
 
   h2 {
     margin-top: 5%;
-    font-family: "Roboto";
+    font-family: "Montserrat";
   }
 
   h3 {
-    font-family: "Roboto";
+    font-family: "Montserrat";
+    /* font-family: "Roboto"; */
   }
 
   h4 {
-    font-family: "Roboto";
+    font-family: "Montserrat";
+    /* font-family: "Roboto"; */
   }
 
   img {
@@ -25,14 +29,14 @@ const StyledAbout = styled.div`
   }
 
   p {
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
     font-family: "Roboto";
   }
 
   .parent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 5%;
   }
 
@@ -58,7 +62,7 @@ const StyledAbout = styled.div`
     text-decoration: underline;
   }
 
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     .parent {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -67,9 +71,9 @@ const StyledAbout = styled.div`
     .item {
       margin: 5%;
     }
-  }
+  } */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .parent {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -94,60 +98,48 @@ const AboutPage = () => {
       </div>
       <div className="parent">
         <div className="item">
-          <img alt="This is dog" src={lemon}></img>
-          <h3>Philip Sunnerholm</h3>
+          <img alt="This is dog" src={ux}></img>
+          <h3>Linda Tilly & Philip Sunnerholm</h3>
+          {/* <h3>Philip Sunnerholm</h3> */}
           <h4>UX Design</h4>
-          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <p>Mejladress?</p>
           <div className="link-container">
             <a href="https://www.yrgo.se/">Länk till Linkedin</a>
             <a href="https://www.yrgo.se/">Länk till Portfolio</a>
           </div>
         </div>
         <div className="item">
-          <img alt="This is dog" src={lemon}></img>
+          <img alt="This is dog" src={webb}></img>
           <h3>Nelly Svarvare Petrén</h3>
           <h4>Webbutvecklare</h4>
-          <p>Mejladress?</p>
+          <p>nelly.petren@gmail.com</p>
+          <div className="link-container">
+            <a href="https://www.linkedin.com/in/nelly-petr%C3%A9n-289957180/">
+              Linkedin
+            </a>
+            <a href="https://github.com/NellySP">Github</a>
+          </div>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
-          <div className="link-container">
-            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
-            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
-          </div>
-        </div>
-        <div className="item">
-          <img alt="This is dog" src={lemon}></img>
-          <h3>Linda Tilly </h3>
-          <h4>UX Design</h4>
-          <p>Mejladress?</p>
-          <p>
-            Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
-            under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
-            detalj. For skoj.
-          </p>
-          <div className="link-container">
-            <a href="https://www.yrgo.se/">Länk till Linkedin</a>
-            <a href="https://www.yrgo.se/">Länk till Portfolio</a>
-          </div>
         </div>
         <div className="item">
           <img alt="This is dog" src={lemon}></img>
           <h3>Niklas Jörgenson</h3>
           <h4>Game Programmer</h4>
-          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
             under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <p>Mejladress?</p>
           <div className="link-container">
             <a href="https://www.yrgo.se/">Länk till Linkedin</a>
             <a href="https://www.yrgo.se/">Länk till Portfolio</a>
@@ -158,12 +150,12 @@ const AboutPage = () => {
           <img alt="This is dog" src={lemon}></img>
           <h3>Maja Dandebo</h3>
           <h4>Game Artist</h4>
-          <p>Mejladress?</p>
           <p>
             Vilken utbildning du går på Yrgo. Vad du har levererat/ansvarat för
-            under projektet. ca 600 tecken. Kanske en Namn Namnlig/privat
+            under projektet. ca 100 tecken. Kanske en Namn Namnlig/privat
             detalj. For skoj.
           </p>
+          <p>Mejladress?</p>
           <div className="link-container">
             <a href="https://www.yrgo.se/">Länk till Linkedin</a>
             <a href="https://www.yrgo.se/">Länk till Portfolio</a>
