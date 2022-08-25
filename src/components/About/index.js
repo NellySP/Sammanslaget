@@ -41,7 +41,8 @@ const StyledAbout = styled.div`
 
   .item {
     margin: 5%;
-    background-color: pink;
+    background-color: #ebccca;
+    /* background-color: #fae8e0; */
     border-radius: 25px;
   }
 
