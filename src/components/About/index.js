@@ -36,6 +36,7 @@ const StyledAbout = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 5%;
+    margin-top: 0%;
   }
 
   .item {
