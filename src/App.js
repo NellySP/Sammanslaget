@@ -5,11 +5,15 @@ import Header from "./components/Header";
 import Footer from "./components/footer";
 
 const StyledIndex = styled.div`
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   box-sizing: border-box;
   margin: 0%;
   text-align: center;
   max-width: 100%;
+
+  .canvas-container {
+    background-color: #ebccca;
+  }
 `;
 
 function App() {
@@ -25,7 +29,9 @@ function App() {
   return (
     <StyledIndex>
       <Header />
-      <Component />
+      <div className="canvas-container">
+        <Component />
+      </div>
       <Footer />
     </StyledIndex>
   );

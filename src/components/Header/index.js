@@ -7,7 +7,7 @@ const StyledHeader = styled.div`
   flex-direction: row;
   background-color: #ebccca;
   align-items: center;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 
   h1 {
     margin-left: 5%;

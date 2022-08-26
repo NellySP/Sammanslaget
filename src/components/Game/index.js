@@ -2,10 +2,17 @@ import styled from "styled-components";
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 const StyledGame = styled.div`
+  .canvas-container {
+    /* margin-right: 1rem;
+    margin-left: 1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   canvas {
     max-width: 100%;
-    min-width: 100%;
-    /* padding: 0.01%; */
+
+    display: flex;
+    justify-content: center;
   }
 `;
 
@@ -19,7 +26,9 @@ const Game = () => {
 
   return (
     <StyledGame>
-      <Unity unityProvider={unityProvider} />
+      <div className="canvas-container">
+        <Unity unityProvider={unityProvider} />
+      </div>
     </StyledGame>
   );
 };
