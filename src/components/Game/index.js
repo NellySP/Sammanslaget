@@ -7,6 +7,7 @@ const StyledGame = styled.div`
     margin-left: 1rem; */
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
   }
   canvas {
     max-width: 100%;

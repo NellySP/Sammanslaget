@@ -56,9 +56,10 @@ const StyledAbout = styled.div`
 
   .link-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     margin-bottom: 3%;
     padding: 3%;
+    justify-content: center;
   }
 
   .div-container {
@@ -69,6 +70,7 @@ const StyledAbout = styled.div`
 
   .item a {
     margin-bottom: 1vh;
+    margin: 1vh;
   }
 
   a {
