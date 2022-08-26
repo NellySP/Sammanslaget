@@ -35,10 +35,10 @@ const Footer = () => {
   return (
     <StyledFooter>
       <div className="link-container">
-        <a href="https://bjorkafrihet.se/">
+        <a target="_blank" rel="noreferrer" href="https://bjorkafrihet.se/">
           <img alt="This is dog" src={bjork}></img>
         </a>
-        <a href="https://www.yrgo.se/">
+        <a target="_blank" rel="noreferrer" href="https://www.yrgo.se/">
           <img alt="This is dog" src={yrgo}></img>
         </a>
       </div>

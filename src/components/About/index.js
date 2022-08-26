@@ -56,7 +56,6 @@ const StyledAbout = styled.div`
 
   .link-container {
     display: flex;
-    /* flex-direction: row; */
     margin-bottom: 3%;
     padding: 3%;
     justify-content: center;
@@ -132,8 +131,15 @@ const AboutPage = () => {
         </p>
         <p>
           Projektet skapades i samarbete mellan{" "}
-          <a href="https://www.yrgo.se/">Yrgo</a> och
-          <a href="https://bjorkafrihet.se/"> Björk & frihet</a>.
+          <a target="_blank" rel="noreferrer" href="https://www.yrgo.se/">
+            Yrgo
+          </a>{" "}
+          och
+          <a target="_blank" rel="noreferrer" href="https://bjorkafrihet.se/">
+            {" "}
+            Björk & frihet
+          </a>
+          .
         </p>
       </div>
       <div className="parent">
@@ -159,10 +165,20 @@ const AboutPage = () => {
           </div>
           <div className="div-container">
             <div className="link-container">
-              <a href="https://www.linkedin.com/in/ltilly">Tillys Linkedin</a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/ltilly"
+              >
+                Tillys Linkedin
+              </a>
             </div>
             <div className="link-container">
-              <a href="https://www.linkedin.com/in/philip-sunnerholm-263836148">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/philip-sunnerholm-263836148"
+              >
                 Philips Linkedin
               </a>
             </div>
@@ -181,10 +197,20 @@ const AboutPage = () => {
             <p>nelly.petren@gmail.com</p>
           </div>
           <div className="link-container">
-            <a href="https://www.linkedin.com/in/nelly-petr%C3%A9n-289957180/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/nelly-petr%C3%A9n-289957180/"
+            >
               Linkedin
             </a>
-            <a href="https://github.com/NellySP">Github</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/NellySP"
+            >
+              Github
+            </a>
           </div>
         </div>
         <div className="item">
@@ -200,7 +226,11 @@ const AboutPage = () => {
             <p>niklas.jorgensen@hotmail.com </p>
           </div>
           <div className="link-container">
-            <a href="https://www.linkedin.com/in/niklas-j%C3%B6rgensen-87a2b71b2/ ">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/niklas-j%C3%B6rgensen-87a2b71b2/ "
+            >
               Linkedin
             </a>
           </div>
@@ -219,7 +249,13 @@ const AboutPage = () => {
             <p>majadandebo@gmail.com</p>
           </div>
           <div className="link-container">
-            <a href="https://www.artstation.com/majadandebo">Portfolio</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.artstation.com/majadandebo"
+            >
+              Portfolio
+            </a>
           </div>
         </div>
       </div>
