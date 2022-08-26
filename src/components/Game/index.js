@@ -4,6 +4,7 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 const StyledGame = styled.div`
   canvas {
     max-width: 100%;
+    min-width: 100%;
     /* padding: 0.01%; */
   }
 `;
